@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ui-view[name='main'] {
+  position: relative;
+  height: 100%;
+}
+
+
+.errors--container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+  color: red;
+}
+
+.errors--item {
+  padding-bottom: 16px;
+}

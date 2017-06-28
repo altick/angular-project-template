@@ -1,0 +1,56 @@
+{
+  "paths": {
+    "vendorjs": [
+      "./bower_components/jquery/dist/jquery.js",
+      "./bower_components/underscore/underscore.js",
+      "./bower_components/materialize/bin/materialize.js",
+      "./bower_components/moment/min/moment.min.js",
+      "./bower_components/angular/angular.js",
+      "./bower_components/angular-resource/angular-resource.min.js",
+      "./bower_components/angular-router/angular-router.min.js",
+      "./bower_components/angular-animate/angular-animate.min.js",
+      "./bower_components/angular-route/angular-route.min.js",
+      "./bower_components/angular-loading-bar/build/loading-bar.min.js",
+      "./bower_components/angular-materialize/src/angular-materialize.js",
+      "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
+      "./bower_components/angular-underscore/angular-underscore.min.js",
+      "./bower_components/angular-moment/angular-moment.min.js",
+      "./bower_components/ical.js/build/ical.min.js"
+    ],
+    "js": [
+      "./app/app.js",
+      "./app/**/*.js",
+      "!./app/**/*.spec.js",
+      "!./app/**/*e2e.js",
+      "./js/**/*.js"
+    ],
+    "vendorcss": [
+      "./bower_components/materialize/bin/materialize.css",
+      "./bower_components/angular-loading-bar/build/loading-bar.min.css",
+      "./bower_components/angular-materialize/css/style.css"
+    ],
+    "sass": [
+      "./scss/**/*.scss"
+    ],
+    "fonts": [
+      "./bower_components/materialize/dist/fonts/**/*.ttf",
+      "./bower_components/materialize/dist/fonts/**/*.woff",
+      "./bower_components/materialize/dist/fonts/**/*.woff2"
+    ],
+    "indexFile": [
+      "./index.html"
+    ],
+    "dataFiles": [
+      "./data/**/*.json"
+    ],
+    "templates": [
+      "./app/**/*.html"
+    ],
+    "staticFiles": [
+      "./static/**/*.*"
+    ],
+    "build": "./build/",
+    "configProd": "./config.json",
+    "configDev": "./config-dev.json"
+  }
+}

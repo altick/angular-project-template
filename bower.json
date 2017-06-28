@@ -1,0 +1,33 @@
+{
+  "name": "social-media-slider",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Petr Altman <altick87@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8",
+    "jquery-easing": "*",
+    "underscore": "^1.8.3",
+    "jquery": "^3.1.1",
+    "moment": "^2.17.1",
+    "angular-ui-router": "ui-router#^0.4.2",
+    "angular-underscore": "^0.5.0",
+    "angular-materialize": "^0.2.2",
+    "angular-loading-bar": "^0.9.0",
+    "angular-resource": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-moment": "^1.0.1",
+    "angular-animate": "^1.6.1",
+    "angular": "^1.6.1"
+  }
+}
